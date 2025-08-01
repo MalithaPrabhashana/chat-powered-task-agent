@@ -108,6 +108,7 @@ node PersonaInteractAction(InteractAction) {
         # authorize, redirect or deny the interact walker here
         # only executes if response message is empty
         # return (visitor.utterance and not visitor.interaction_node.has_response());
+        return False;
     }
 
     def execute(visitor:agent_graph_walker) -> None {
