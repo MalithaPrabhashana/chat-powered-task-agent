@@ -31,7 +31,7 @@ test_source/
 .session
 *.session.db
 mydatabase/
-actions/jivas/
+# actions/jivas/
 daf/jivas/
 .DS_Store
 .vscode
