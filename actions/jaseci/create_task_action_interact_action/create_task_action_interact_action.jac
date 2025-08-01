@@ -72,7 +72,7 @@ node CreateTaskActionInteractAction(InteractAction) {
                 } elif isinstance(interact_action_json, list) {
                     tasks = interact_action_json;
                 } else {
-                    print("⚠️ Invalid JSON structure");
+                    print("Invalid JSON structure");
                     return;
                 }
 
